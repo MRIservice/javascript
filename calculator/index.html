@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="buttons">
+
+        <div class="calc-display" id="calc-display"></div>
+
+        <div class="button" onclick="clearDisplay()">Clear</div>
+        <div class="button" onclick="sliceStr()">DE</div>
+        <div class="button" onclick="percent()">%</div>
+        <div class="button" onclick="appendNumber('*')">*</div>
+
+        <div class="button" onclick="appendNumber(1)">1</div>
+        <div class="button" onclick="appendNumber(2)">2</div>
+        <div class="button" onclick="appendNumber(3)">3</div>
+        <div class="button" onclick="appendNumber('/')">/</div>
+     
+        <div class="button" onclick="appendNumber(4)">4</div>
+        <div class="button" onclick="appendNumber(5)">5</div>
+        <div class="button" onclick="appendNumber(6)">6</div>
+        <div class="button" onclick="appendNumber('-')">-</div>
+
+        <div class="button" onclick="appendNumber(7)">7</div>
+        <div class="button" onclick="appendNumber(8)">8</div>
+        <div class="button" onclick="appendNumber(9)">9</div>
+        <div class="button" onclick="appendNumber('+')">+</div>
+
+        <div class="button" onclick="appendNumber('0')" >0</div>
+        <div class="button" onclick="appendNumber('.')">.</div>
+        <div class="equal" onclick="solve()">=</div>
+
+    </div>
+
+</div>
+
+<script src="test.js"></script>
+</body>
+</html>
